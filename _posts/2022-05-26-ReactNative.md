@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "리액트 네이티브 -1"
+title:  "[React Native] 양재동 코드랩 강의 요약"
 
 categories:
   - ReactNative
