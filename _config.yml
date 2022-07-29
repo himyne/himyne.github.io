@@ -24,8 +24,8 @@ description              : "An amazing website."
 url                      : "https://himyne.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "himyne/himyne-github-blog"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/banner.jpg"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 futrue                   : true
 # breadcrumbs            : false # true, false (default)
@@ -60,7 +60,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -285,9 +285,12 @@ defaults:
       path: ""
       type: posts
     values:
+        sidebar:
+          nav: "docs"
+        show_date: true
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
