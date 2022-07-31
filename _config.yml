@@ -24,7 +24,7 @@ description              : "An amazing website."
 url                      : "https://himyne.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "himyne/himyne-github-blog"
-teaser                   : "/assets/images/banner.jpg"
+teaser                   : #
 logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 futrue                   : true
@@ -128,7 +128,7 @@ author:
       url: "https://github.com/himyne"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/my_ne__/"
 
 # Site Footer
 footer:
@@ -284,6 +284,7 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
       layout: single
       author_profile: true
       read_time: false
