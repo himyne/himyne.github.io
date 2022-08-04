@@ -4,6 +4,19 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+
+sidebar-category:
+  - title: "💻Development"
+    children:
+      - title: "Baekjoon"
+        url: "/백준"
+      - title: "TIL"
+        url:  "TIL"
+      - title: "Git/Github"
+        url:  "git"
+      - title: "JS"
+        url:  "JavaScript"
+      
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
