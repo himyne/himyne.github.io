@@ -6,7 +6,7 @@ main:
     url: /tags/
 
 sidebar-category:
-  - title: "💻Development"
+  - title: "💻 Development"
     children:
       - title: "Baekjoon"
         url: "/백준"
@@ -16,7 +16,11 @@ sidebar-category:
         url:  "git"
       - title: "JS"
         url:  "JavaScript"
-      
+  - title: "🥕 일상"
+    children:
+      - title: "간헐적 일기"
+        url: "diary"
+        
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
