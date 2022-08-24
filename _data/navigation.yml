@@ -14,8 +14,10 @@ sidebar-category:
         url:  "TIL"
       - title: "Git/Github"
         url:  "git"
-      - title: "JS"
+      - title: "JS Essential"
         url:  "JavaScript"
+      - title: "JS DeepDive"
+        url: "DeepDive"
   - title: "🥕 일상"
     children:
       - title: "간헐적 일기"
