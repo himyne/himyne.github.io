@@ -9,7 +9,7 @@ sidebar-category:
   - title: "💻 Development"
     children:
       - title: "Baekjoon"
-        url: "/Baekjoon"
+        url: "Baekjoon"
       - title: "TIL"
         url:  "TIL"
       - title: "Git/Github"
