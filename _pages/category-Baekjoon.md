@@ -1,9 +1,9 @@
 ---
 title: "Baekjoon"
 layout: archive
-permalink: /백준
+permalink: /Baekjoon
 ---
 
 
-{% assign posts = site.categories.백준 %}
+{% assign posts = site.categories.Baekjoon %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
