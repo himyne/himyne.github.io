@@ -1,9 +1,9 @@
 ---
-title: "TIL/일상"
+title: "우아한 프리코스"
 layout: archive
-permalink: /TIL
+permalink: /precourse
 ---
 
 
-{% assign posts = site.categories.TIL %}
+{% assign posts = site.categories.precourse %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

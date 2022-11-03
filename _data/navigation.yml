@@ -18,10 +18,10 @@ sidebar-category:
         url:  "JavaScript"
       - title: "JS DeepDive"
         url: "DeepDive"
-  - title: "🥕 일상"
+  - title: " 💡 회고"
     children:
-      - title: "간헐적 일기"
-        url: "diary"
+      - title: "우아한 프리코스"
+        url: "precourse"
         
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
