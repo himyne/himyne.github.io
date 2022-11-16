@@ -41,13 +41,13 @@ toc_label: "3주차 미션 회고"
 
 내가 했던 클래스 분리 방법은 이렇다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8bbab8f6-c429-4c0f-bfe1-5eba5e2b031b/Untitled.png)
+![Untitled](/assets/images/precourse-8.png)
 
 처음에는 클래스를 기능별로 나눌까? 라고 생각해서 많은 클래스 파일을 만들었었다. 로또를 발행하는 클래스, 로또를 추첨하는 클래스, 결과를 출력하는 클래스 등등.. 그런데 오히려 기능별로 파일을 만드니 가독성이 떨어지는 것 같았고 파일이 너무 많아지는 바람에 정리된 느낌이 들지 않았다.
 
 이렇게 클래스 분리에 대해 고민을 하던 중 다시 요구사항을 유심히 읽어보고 힌트를 얻었다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac99c75e-2d87-47e6-b95f-a0f4d361b694/Untitled.png)
+![Untitled](/assets/images/precourse-9.png)
 
 Lotto 클래스에서 당첨 번호를 인자 numbers 넘겨받고 유효성 검사를 한 뒤에 값이 유효하면 private 변수로 재할당하는 방식으로 클래스가 짜여있었다.
 
