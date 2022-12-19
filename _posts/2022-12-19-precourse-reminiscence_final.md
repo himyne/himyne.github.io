@@ -17,7 +17,7 @@ toc_label: "최종 코딩테스트 후기"
 
 프리코스가 끝나고 결과를 기다리는 3주 동안 지난 문제에 대한 복습, 리팩토링, 코드 리뷰를 하는 스터디를 했었다. 그런데 ...!
 
-![메일 사진](../assets/images/precourse-16.png)
+![Untitled](/assets/images/precourse-16.png)
 
 다행히 1차 합격을 하고 3주 동안 최종 코딩테스트를 위해 준비했던 시간이 헛되이지 않게 되었다.
 
@@ -45,7 +45,8 @@ fork하고 clone 한 뒤 브랜치를 따로 생성하지 않고 main 브랜치�
 
 위 링크를 시험 전날에 요약해서 어딘가 적어가거나 이 링크를 꼭 시험 시작 전에 보고 하는 것을 추천한다.
 
-{: .notice} fork => clone => git branch 브랜치명 => git checkout 브랜치명
+fork => clone => git branch 브랜치명 => git checkout 브랜치명
+{: .notice}
 
 ## 점메추 최종 코딩 테스트 문제 후기
 
@@ -57,7 +58,7 @@ fork하고 clone 한 뒤 브랜치를 따로 생성하지 않고 main 브랜치�
 
 사실 처음에 문제를 보고 문제 자체를 이해하는데는 어려움이 없었어서 구현이 가능할것만 같았다.
 
-![메일 사진](../assets/images/precourse-18.png)
+![untitled](/assets/images/precourse-18.png)
 
 하지만 두번째 입력을 받는 부분에서 문제가 발생해서 거의 1시간 이상을 잡아먹었다.
 
@@ -102,7 +103,7 @@ readAvoidMenu(name, readAvoidMenuCallback) {
 
 다음에는 우테코에서 제공하는 MissionUtils의 shuffle 메서드를 사용하던 중 문제가 발생했다.
 
-![메일 사진](../assets/images/precourse-19.png)
+![untitled](/assets/images/precourse-19.png)
 
 요구사항에서 Randoms.shuffle()메서드의 인자로 전달되는 메뉴 데이터는 최초에 제공한 목록을 그대로 전달한다고 하였고, 카테고리에 포함되는 메뉴 목록은 문자열 배열 형태로 담아 준비한다고 했기 때문에 난 당연히 menus에 문자열 메뉴 목록을 전달해야 한다고 생각했다.
 
